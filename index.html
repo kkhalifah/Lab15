@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mab Libs</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Martel" rel="stylesheet">
+  </head>
+  <body ng-app = "madMod">
+
+    <nav>
+      <h1>Mad Libs the NG-Version</h1>
+      <a href="#!/form" id=anchor>Form </a>
+      <a href="#!/output" id=anchor>Output </a>
+    </nav>
+    <div class="formBox">
+    <p>Please fill out the forms, have some <bold>FUN,</bold>hit submit</p>
+      <p>No peaking!</p>
+    </div>
+    <ng-view></ng-view>
+
+    <script src="lib/angular.min.js" charset="utf-8"></script>
+    <script src="lib/angular-route.min.js" charset="utf-8"></script>
+    <script src="js/module/module.js" charset="utf-8"></script>
+    <script src="js/module/config.js" charset="utf-8"></script>
+    <script src="js/controllers/formcontrol.js" charset="utf-8"></script>
+    <script src="js/controllers/output.js" charset="utf-8"></script>
+    <script src="js/services/madlibservice.js" charset="utf-8"></script>
+
+  </body>
+</html>

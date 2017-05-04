@@ -1,0 +1,16 @@
+body {
+  background-image: url('fog.jpg');
+  font-family: 'Martel', serif;
+}
+
+.inputArea {
+  background-color: blue;
+}
+
+.formBox {
+  width: 75%;
+}
+
+#para {
+  width: 200px;
+}
