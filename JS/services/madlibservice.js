@@ -14,7 +14,7 @@ app.factory('madFactory', function(){
       return input
     };
     return {
-      //property and value
+      //property and value, one sets, one gets
       returnInput: returnInput,
       setInput: setInput
   }
